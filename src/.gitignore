@@ -1,0 +1,9 @@
+# Ignorar archivos y carpetas innecesarias
+__pycache__/             # Ignorar archivos .pyc generados automáticamente por Python
+*.pyc                    # Ignorar cualquier archivo .pyc
+.vscode/                 # Ignorar carpeta de configuración de Visual Studio Code
+.idea/                   # Ignorar carpeta de configuración de JetBrains (si usas PyCharm o IntelliJ)
+*.log                    # Ignorar archivos de log
+.DS_Store                # Ignorar archivos de sistema en macOS
+*.env                    # Ignorar archivos de variables de entorno
+*.db                     # Ignorar bases de datos locales
